@@ -2,12 +2,19 @@
   "python_version": "3.13.16",
   "pytorch_version": "2.11.0+cpu",
   "device": "cpu",
-  "epochs": 30,
+  "seed": 42,
   "learning_rate": 0.01,
   "batch_size": 64,
-  "train_samples": 1680,
-  "validation_samples": 360,
-  "test_samples": 360,
+  "epochs": 30,
+  "dataset": {
+    "type": "synthetic_multiclass",
+    "samples": 2400,
+    "features": 10,
+    "classes": 3,
+    "train": 1680,
+    "validation": 360,
+    "test": 360
+  },
   "test_loss": 0.0006720416894596484,
   "test_accuracy": 1.0,
   "history": {
