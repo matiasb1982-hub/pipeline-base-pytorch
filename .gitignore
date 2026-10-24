@@ -1,0 +1,14 @@
+# Entornos
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Datos/modelos generados
+data/*
+!data/.gitkeep
+results/model_state_dict.pt
+
+# Notebook
+.ipynb_checkpoints/
+.DS_Store
