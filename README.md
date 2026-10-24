@@ -1,4 +1,3 @@
-Carpeta reservada para notebooks de exploración. El pipeline ejecutable está en `src/train.py`.
 # Pipeline de entrenamiento, validación y clasificador base
 
 ## 1. Descripción del proyecto
