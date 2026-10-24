@@ -1,0 +1,204 @@
+{
+  "seed": 42,
+  "device": "cpu",
+  "python_version": "3.13.5",
+  "pytorch_version": "2.10.0+cpu",
+  "learning_rate": 0.01,
+  "batch_size": 64,
+  "epochs": 30,
+  "dataset": {
+    "type": "synthetic_multiclass",
+    "samples": 2400,
+    "features": 10,
+    "classes": 3,
+    "train": 1680,
+    "validation": 360,
+    "test": 360
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.476638,
+      "val_loss": 0.222878,
+      "val_accuracy": 0.961111
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.115586,
+      "val_loss": 0.044918,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.024156,
+      "val_loss": 0.0151,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0091,
+      "val_loss": 0.009023,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.005542,
+      "val_loss": 0.007521,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.004046,
+      "val_loss": 0.006527,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.003174,
+      "val_loss": 0.005664,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.002494,
+      "val_loss": 0.004938,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.002038,
+      "val_loss": 0.004721,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.00177,
+      "val_loss": 0.004496,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.00152,
+      "val_loss": 0.004204,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.001297,
+      "val_loss": 0.004163,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.00113,
+      "val_loss": 0.003979,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.001025,
+      "val_loss": 0.003887,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.000894,
+      "val_loss": 0.003753,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.000811,
+      "val_loss": 0.003613,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.000748,
+      "val_loss": 0.00377,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.000654,
+      "val_loss": 0.003474,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.000613,
+      "val_loss": 0.003592,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.000553,
+      "val_loss": 0.003686,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.000518,
+      "val_loss": 0.003686,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.000491,
+      "val_loss": 0.003633,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.00045,
+      "val_loss": 0.003659,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.000423,
+      "val_loss": 0.003852,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.000396,
+      "val_loss": 0.003543,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.000364,
+      "val_loss": 0.003378,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.000342,
+      "val_loss": 0.003561,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.000334,
+      "val_loss": 0.003465,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.000297,
+      "val_loss": 0.00347,
+      "val_accuracy": 0.997222
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.000288,
+      "val_loss": 0.003399,
+      "val_accuracy": 0.997222
+    }
+  ],
+  "test": {
+    "loss": 0.000672,
+    "accuracy": 1.0
+  }
+}

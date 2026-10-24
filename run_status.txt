@@ -1,0 +1,49 @@
+Ejecución local del entorno de creación:
+Python: 3.13.5
+PyTorch: 2.10.0+cpu
+Dispositivo seleccionado: cpu
+Época 01/30 | train_loss=0.4766 | val_loss=0.2229 | val_accuracy=0.9611
+Época 02/30 | train_loss=0.1156 | val_loss=0.0449 | val_accuracy=0.9972
+Época 03/30 | train_loss=0.0242 | val_loss=0.0151 | val_accuracy=0.9972
+Época 04/30 | train_loss=0.0091 | val_loss=0.0090 | val_accuracy=1.0000
+Época 05/30 | train_loss=0.0055 | val_loss=0.0075 | val_accuracy=1.0000
+Época 06/30 | train_loss=0.0040 | val_loss=0.0065 | val_accuracy=1.0000
+Época 07/30 | train_loss=0.0032 | val_loss=0.0057 | val_accuracy=1.0000
+Época 08/30 | train_loss=0.0025 | val_loss=0.0049 | val_accuracy=1.0000
+Época 09/30 | train_loss=0.0020 | val_loss=0.0047 | val_accuracy=1.0000
+Época 10/30 | train_loss=0.0018 | val_loss=0.0045 | val_accuracy=1.0000
+Época 11/30 | train_loss=0.0015 | val_loss=0.0042 | val_accuracy=0.9972
+Época 12/30 | train_loss=0.0013 | val_loss=0.0042 | val_accuracy=1.0000
+Época 13/30 | train_loss=0.0011 | val_loss=0.0040 | val_accuracy=1.0000
+Época 14/30 | train_loss=0.0010 | val_loss=0.0039 | val_accuracy=0.9972
+Época 15/30 | train_loss=0.0009 | val_loss=0.0038 | val_accuracy=1.0000
+Época 16/30 | train_loss=0.0008 | val_loss=0.0036 | val_accuracy=0.9972
+Época 17/30 | train_loss=0.0007 | val_loss=0.0038 | val_accuracy=0.9972
+Época 18/30 | train_loss=0.0007 | val_loss=0.0035 | val_accuracy=1.0000
+Época 19/30 | train_loss=0.0006 | val_loss=0.0036 | val_accuracy=0.9972
+Época 20/30 | train_loss=0.0006 | val_loss=0.0037 | val_accuracy=0.9972
+Época 21/30 | train_loss=0.0005 | val_loss=0.0037 | val_accuracy=0.9972
+Época 22/30 | train_loss=0.0005 | val_loss=0.0036 | val_accuracy=0.9972
+Época 23/30 | train_loss=0.0004 | val_loss=0.0037 | val_accuracy=0.9972
+Época 24/30 | train_loss=0.0004 | val_loss=0.0039 | val_accuracy=0.9972
+Época 25/30 | train_loss=0.0004 | val_loss=0.0035 | val_accuracy=0.9972
+Época 26/30 | train_loss=0.0004 | val_loss=0.0034 | val_accuracy=0.9972
+Época 27/30 | train_loss=0.0003 | val_loss=0.0036 | val_accuracy=0.9972
+Época 28/30 | train_loss=0.0003 | val_loss=0.0035 | val_accuracy=0.9972
+Época 29/30 | train_loss=0.0003 | val_loss=0.0035 | val_accuracy=0.9972
+Época 30/30 | train_loss=0.0003 | val_loss=0.0034 | val_accuracy=0.9972
+\nResultado final en conjunto de prueba:
+Test loss: 0.0007 | Test accuracy: 100.00%
+Métricas guardadas en: /mnt/data/pipeline_base_pytorch/results/metrics.json
+Pesos guardados en: /mnt/data/pipeline_base_pytorch/results/model_state_dict.pt
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
